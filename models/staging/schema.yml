@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+    - name: staging
+      database: dtc-de-0315
+      schema: trips_data_all
+
+      tables:
+          - name: green_tripdata_partitioned
+          - name: yellow_tripdata_partitioned
